@@ -363,8 +363,8 @@ const WORK_LOCATION = {
       name: "Live Bus Tracking App",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-150",
-      windowPosition: "top-[65vh] left-10",
+      position: "top-50 left-10",
+      windowPosition: "top-[65vh] left-8",
       children: [
         {
           id: 1,
@@ -396,8 +396,8 @@ const WORK_LOCATION = {
       name: "Smartpad - Offline AI Powered Notepad",
       icon: "/images/folder.png",
       kind: "folder",
-      position: "top-10 left-200",
-      windowPosition: "top-[85vh] left-12",
+      position: "top-50 left-100",
+      windowPosition: "top-[5vh] left-40",
       children: [
         {
           id: 1,
