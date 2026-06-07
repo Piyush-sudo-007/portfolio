@@ -135,7 +135,7 @@ const techStack = [
   },
   {
     category: "Other",
-    items: ["API", "Socket", "Jupyter Notebook", "DSA", "DBMS", "SDLC"],
+    items: ["Socket", "Jupyter Notebook", "DSA", "DBMS", "SDLC"],
   },
 ];
 
