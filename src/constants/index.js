@@ -127,15 +127,15 @@ const techStack = [
   },
   {
     category: "Machine Learning & AI",
-    items: ["TensorFlow", "PyTorch"],
+    items: ["TensorFlow", "PyTorch", "Transformers"],
   },
   {
     category: "DevOps & Tools",
-    items: ["Git", "GitHub", "Docker", "AWS"],
+    items: ["Git", "GitHub", "Docker", "AWS", "QT"],
   },
   {
     category: "Other",
-    items: ["API", "Socket", "Jupyter Notebook", "DSA"],
+    items: ["API", "Socket", "Jupyter Notebook", "DSA", "DBMS", "SDLC"],
   },
 ];
 
@@ -149,7 +149,7 @@ const socials = [
   },
   {
     id: 2,
-    text: "Platform",
+    text: "Instagram",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
     link: "https://www.instagram.com/mepiyushdev/",
@@ -353,6 +353,74 @@ const WORK_LOCATION = {
           fileType: "img",
           position: "top-52 right-80",
           imageUrl: "/images/project2.png",
+        },
+      ],
+    },
+
+    // ▶ Project 4
+    {
+      id: 8,
+      name: "Live Bus Tracking App",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-150",
+      windowPosition: "top-[65vh] left-10",
+      children: [
+        {
+          id: 1,
+          name: "Live Bus Tracking App.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            " Developed a cross-platform mobile vehicle tracking ecosystem for the campus transit network with a low streaming lag of 2–5 seconds.",
+            " Built client-side GPS location polling mechanisms and custom interactive map routing overlays.",
+            "Configured identity verification via Clerk Authentication alongside multi-module role-based access tokens.",
+          ],
+        },
+        {
+          id: 2,
+          name: "live-bus-tracking.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/Piyush-sudo-007/live-bus-tracking.git",
+          position: "top-10 right-20",
+        },
+      ],
+    },
+    // ▶ Project 5
+    {
+      id: 9,
+      name: "Smartpad - Offline AI Powered Notepad",
+      icon: "/images/folder.png",
+      kind: "folder",
+      position: "top-10 left-200",
+      windowPosition: "top-[85vh] left-12",
+      children: [
+        {
+          id: 1,
+          name: "Smartpad.txt",
+          icon: "/images/txt.png",
+          kind: "file",
+          fileType: "txt",
+          position: "top-5 left-10",
+          description: [
+            "Engineered a lightweight C++ desktop editor running private, zero-latency text predictions entirely offline.",
+            "Embedded ONNX Runtime on a background thread to map input tokens, attention masks, and positional graphs.",
+            "Built real-time user behavior learning utilizing an SQLite3 database schema overlaying custom log-scale probabilistic frequency biases.",
+            "Programmed automatic context parsing to instantly switch prediction models between Blog writing and Coding modes.",
+          ],
+        },
+        {
+          id: 2,
+          name: "Samrtpad.com",
+          icon: "/images/safari.png",
+          kind: "file",
+          fileType: "url",
+          href: "https://github.com/Piyush-sudo-007/Smartpad/releases/tag/v1.1.0",
+          position: "top-10 right-20",
         },
       ],
     },
